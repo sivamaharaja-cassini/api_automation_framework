@@ -40,6 +40,14 @@ jobs:
         run: |
           pytest -v --alluredir=allure-results
 
+      - name: Install Allure CLI
+        run: |
+          wget https://github.com/allure-framework/allure2/releases/download/2.26.0/allure-2.26.0.tgz
+          tar -zxvf allure-2.26.0.tgz
+          sudo apt-get update
+          sudo apt-get install allure -y
+
+
       # 5. Generate Allure HTML report
       - name: Generate Allure Report
         run: |
