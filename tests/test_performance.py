@@ -18,5 +18,5 @@ def test_httpbin_concurrent_delay(http_client):
     httpbin = http_client.__class__(base_url="https://httpbin.org")
     with ThreadPoolExecutor(max_workers=10) as ex:
         futures = [ex.submit(httpbin.request, "GET", "/delay/1", test_name="test_httpbin_concurrent_delay") for _ in range(10)]
-        results = [f.result(timeout=30) for f in futures]
+        results = [f.result(timeout=60) for f in futures]
     assert all(r.status_code == 200 for r in results)
