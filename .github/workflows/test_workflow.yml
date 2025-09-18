@@ -1,4 +1,4 @@
-name: Run API testcases and Generate Allure Report
+name: Run API pytest testcases and Generate Allure Report
 
 on:
   push:
