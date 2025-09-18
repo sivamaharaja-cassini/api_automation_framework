@@ -1,0 +1,54 @@
+{
+  "request": {
+    "id": "2993e904-496e-4a95-a996-e3c88ae653b7",
+    "method": "POST",
+    "url": "https://httpbin.org/post",
+    "headers": {
+      "User-Agent": "python-requests/2.32.5",
+      "Accept-Encoding": "gzip, deflate",
+      "Accept": "*/*",
+      "Connection": "keep-alive",
+      "Content-Length": "47",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "username": "alice",
+      "password": "wonderland"
+    }
+  },
+  "response": {
+    "id": "2993e904-496e-4a95-a996-e3c88ae653b7",
+    "status_code": 200,
+    "elapsed_ms": 13209.64,
+    "headers": {
+      "Date": "Thu, 18 Sep 2025 12:50:19 GMT",
+      "Content-Type": "application/json",
+      "Content-Length": "553",
+      "Connection": "keep-alive",
+      "Server": "gunicorn/19.9.0",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Credentials": "true"
+    },
+    "body": {
+      "args": {},
+      "data": "{\"username\": \"alice\", \"password\": \"wonderland\"}",
+      "files": {},
+      "form": {},
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate",
+        "Content-Length": "47",
+        "Content-Type": "application/json",
+        "Host": "httpbin.org",
+        "User-Agent": "python-requests/2.32.5",
+        "X-Amzn-Trace-Id": "Root=1-68cc000a-29f52c8f67aa2c7936d292b2"
+      },
+      "json": {
+        "password": "wonderland",
+        "username": "alice"
+      },
+      "origin": "122.178.38.187",
+      "url": "https://httpbin.org/post"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+default_env: gorest
+
+envs:
+  jsonplaceholder:
+    base_url: "https://jsonplaceholder.typicode.com"
+  requires:
+    base_url: "https://reqres.in/api"
+  httpbin:
+    base_url: "https://httpbin.org"
+  gorest:
+    base_url: "https://gorest.co.in/public/v2"
+    token_env_var: "Gorest_TOKEN"

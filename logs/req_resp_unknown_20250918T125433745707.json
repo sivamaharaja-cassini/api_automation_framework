@@ -1,0 +1,59 @@
+{
+  "request": {
+    "id": "735b4535-8b7e-40f4-a945-3e2f63e9859d",
+    "method": "POST",
+    "url": "https://gorest.co.in/public/v2/users",
+    "headers": {
+      "User-Agent": "python-requests/2.32.5",
+      "Accept-Encoding": "gzip, deflate",
+      "Accept": "*/*",
+      "Connection": "keep-alive",
+      "Authorization": "Bearer 97a7e6e3d5ffa33d15b1ec610c2f5ef5bb2efd40d595611345df3ec9c784a396",
+      "Content-Length": "91",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "name": "John Doe",
+      "email": "invalid-email-format",
+      "gender": "male",
+      "status": "active"
+    }
+  },
+  "response": {
+    "id": "735b4535-8b7e-40f4-a945-3e2f63e9859d",
+    "status_code": 422,
+    "elapsed_ms": 559.11,
+    "headers": {
+      "Date": "Thu, 18 Sep 2025 12:54:33 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "42",
+      "Connection": "keep-alive",
+      "Cache-Control": "no-cache",
+      "feature-policy": "camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "vary": "Origin",
+      "x-content-type-options": "nosniff",
+      "x-download-options": "noopen",
+      "x-frame-options": "SAMEORIGIN",
+      "x-permitted-cross-domain-policies": "none",
+      "x-ratelimit-limit": "90",
+      "x-ratelimit-remaining": "89",
+      "x-ratelimit-reset": "2",
+      "x-request-id": "e7a06b42-e450-46da-b8a8-eb6f2b6b5cba",
+      "x-runtime": "0.051324",
+      "x-xss-protection": "0",
+      "cf-cache-status": "DYNAMIC",
+      "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2F5VXbUII8aSPyEHS%2BugBuQB%2FryiqIyZoSqJkA8UM601bV7XK9W6x2NTEeboCZTAkS1zxz5Vbm9%2BykS3H2fYYA3LSIqBTeL3URWYGoA%3D%3D\"}]}",
+      "Server": "cloudflare",
+      "CF-RAY": "9810fe1c8be640e3-SIN",
+      "alt-svc": "h3=\":443\"; ma=86400"
+    },
+    "body": [
+      {
+        "field": "email",
+        "message": "is invalid"
+      }
+    ]
+  }
+}

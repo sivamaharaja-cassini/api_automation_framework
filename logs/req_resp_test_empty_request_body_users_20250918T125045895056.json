@@ -1,0 +1,53 @@
+{
+  "request": {
+    "id": "e6d641b2-64ff-4c9c-87a1-82beedc6c36a",
+    "method": "POST",
+    "url": "https://reqres.in/api/users",
+    "headers": {
+      "User-Agent": "python-requests/2.32.5",
+      "Accept-Encoding": "gzip, deflate",
+      "Accept": "*/*",
+      "Connection": "keep-alive",
+      "Content-Length": "2",
+      "Content-Type": "application/json"
+    },
+    "body": null
+  },
+  "response": {
+    "id": "e6d641b2-64ff-4c9c-87a1-82beedc6c36a",
+    "status_code": 401,
+    "elapsed_ms": 811.15,
+    "headers": {
+      "Date": "Thu, 18 Sep 2025 12:50:46 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "27",
+      "Connection": "keep-alive",
+      "CF-RAY": "9810f88a6c269144-MAA",
+      "Access-Control-Allow-Credentials": "true",
+      "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization, x-api-key",
+      "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+      "Access-Control-Allow-Origin": "http://localhost:5173",
+      "Etag": "W/\"1b-FQ1mIOMgD7jlZN53VsiSdXzsYTY\"",
+      "Nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+      "Ratelimit-Limit": "100",
+      "Ratelimit-Policy": "100;w=60",
+      "Ratelimit-Remaining": "99",
+      "Ratelimit-Reset": "60",
+      "Referrer-Policy": "strict-origin-when-cross-origin",
+      "Report-To": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=zzLayhzHhXMjVTMVy4qA%2FfA9c1zt1YwOja%2Bu7gpMHBU%3D\\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\\u0026ts=1758199845\"}],\"max_age\":3600}",
+      "Reporting-Endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=zzLayhzHhXMjVTMVy4qA%2FfA9c1zt1YwOja%2Bu7gpMHBU%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1758199845\"",
+      "Vary": "Origin",
+      "Via": "1.1 heroku-router",
+      "X-Content-Type-Options": "nosniff",
+      "X-Frame-Options": "DENY",
+      "X-Request-Id": "e17903f7-f194-eee7-f980-f6029d7133b3",
+      "X-Xss-Protection": "1; mode=block",
+      "cf-cache-status": "DYNAMIC",
+      "Server": "cloudflare",
+      "server-timing": "cfL4;desc=\"?proto=TCP&rtt=24381&min_rtt=23463&rtt_var=9455&sent=6&recv=7&lost=0&retrans=0&sent_bytes=2833&recv_bytes=844&delivery_rate=123769&cwnd=192&unsent_bytes=0&cid=8ae832985ce9b108&ts=541&x=0\""
+    },
+    "body": {
+      "error": "Missing API key"
+    }
+  }
+}

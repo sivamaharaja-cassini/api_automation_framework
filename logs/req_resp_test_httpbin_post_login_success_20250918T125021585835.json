@@ -1,0 +1,54 @@
+{
+  "request": {
+    "id": "ddcdaad5-5de9-477d-a6f0-38e31ed8493a",
+    "method": "POST",
+    "url": "https://httpbin.org/post",
+    "headers": {
+      "User-Agent": "python-requests/2.32.5",
+      "Accept-Encoding": "gzip, deflate",
+      "Accept": "*/*",
+      "Connection": "keep-alive",
+      "Content-Length": "42",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "username": "bob",
+      "password": "builder"
+    }
+  },
+  "response": {
+    "id": "ddcdaad5-5de9-477d-a6f0-38e31ed8493a",
+    "status_code": 200,
+    "elapsed_ms": 2409.39,
+    "headers": {
+      "Date": "Thu, 18 Sep 2025 12:50:21 GMT",
+      "Content-Type": "application/json",
+      "Content-Length": "543",
+      "Connection": "keep-alive",
+      "Server": "gunicorn/19.9.0",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Credentials": "true"
+    },
+    "body": {
+      "args": {},
+      "data": "{\"username\": \"bob\", \"password\": \"builder\"}",
+      "files": {},
+      "form": {},
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate",
+        "Content-Length": "42",
+        "Content-Type": "application/json",
+        "Host": "httpbin.org",
+        "User-Agent": "python-requests/2.32.5",
+        "X-Amzn-Trace-Id": "Root=1-68cc000c-287e0758468626eb6b001016"
+      },
+      "json": {
+        "password": "builder",
+        "username": "bob"
+      },
+      "origin": "122.178.38.187",
+      "url": "https://httpbin.org/post"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "request": {
+    "id": "769d8810-abbb-48bf-8076-b1309c0e3e1b",
+    "method": "GET",
+    "url": "https://httpbin.org/delay/1",
+    "headers": {
+      "User-Agent": "python-requests/2.32.5",
+      "Accept-Encoding": "gzip, deflate",
+      "Accept": "*/*",
+      "Connection": "keep-alive"
+    },
+    "body": null
+  },
+  "response": {
+    "id": "769d8810-abbb-48bf-8076-b1309c0e3e1b",
+    "status_code": 200,
+    "elapsed_ms": 3578.8,
+    "headers": {
+      "Date": "Thu, 18 Sep 2025 12:33:32 GMT",
+      "Content-Type": "application/json",
+      "Content-Length": "358",
+      "Connection": "keep-alive",
+      "Server": "gunicorn/19.9.0",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Credentials": "true"
+    },
+    "body": {
+      "args": {},
+      "data": "",
+      "files": {},
+      "form": {},
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate",
+        "Host": "httpbin.org",
+        "User-Agent": "python-requests/2.32.5",
+        "X-Amzn-Trace-Id": "Root=1-68cbfc1b-72ba022848090ca4747cf742"
+      },
+      "origin": "122.178.38.187",
+      "url": "https://httpbin.org/delay/1"
+    }
+  }
+}

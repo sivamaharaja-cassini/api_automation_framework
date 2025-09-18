@@ -1,0 +1,31 @@
+{
+  "request": {
+    "id": "c73ab76f-62ae-4640-a03c-b11e2d873c29",
+    "method": "DELETE",
+    "url": "https://httpbin.org/get",
+    "headers": {
+      "User-Agent": "python-requests/2.32.5",
+      "Accept-Encoding": "gzip, deflate",
+      "Accept": "*/*",
+      "Connection": "keep-alive",
+      "Content-Length": "0"
+    },
+    "body": null
+  },
+  "response": {
+    "id": "c73ab76f-62ae-4640-a03c-b11e2d873c29",
+    "status_code": 405,
+    "elapsed_ms": 2636.29,
+    "headers": {
+      "Date": "Thu, 18 Sep 2025 09:42:42 GMT",
+      "Content-Type": "text/html",
+      "Content-Length": "178",
+      "Connection": "keep-alive",
+      "Server": "gunicorn/19.9.0",
+      "Allow": "OPTIONS, GET, HEAD",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Credentials": "true"
+    },
+    "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<title>405 Method Not Allowed</title>\n<h1>Method Not Allowed</h1>\n<p>The method is not allowed for the requested URL.</p>\n"
+  }
+}

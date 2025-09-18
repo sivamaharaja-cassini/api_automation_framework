@@ -1,0 +1,57 @@
+{
+  "request": {
+    "id": "74b4a726-2cc8-4cc1-ab94-c8f65316c2fa",
+    "method": "POST",
+    "url": "https://reqres.in/api/posts",
+    "headers": {
+      "User-Agent": "python-requests/2.32.5",
+      "Accept-Encoding": "gzip, deflate",
+      "Accept": "*/*",
+      "Connection": "keep-alive",
+      "Content-Length": "108",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "title": "Test Post Title",
+      "body": "This is a test post body content for automation testing",
+      "userId": 1
+    }
+  },
+  "response": {
+    "id": "74b4a726-2cc8-4cc1-ab94-c8f65316c2fa",
+    "status_code": 401,
+    "elapsed_ms": 751.34,
+    "headers": {
+      "Date": "Thu, 18 Sep 2025 09:56:02 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "27",
+      "Connection": "keep-alive",
+      "CF-RAY": "980ff899eeb7aa6a-MAA",
+      "Access-Control-Allow-Credentials": "true",
+      "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization, x-api-key",
+      "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+      "Access-Control-Allow-Origin": "http://localhost:5173",
+      "Etag": "W/\"1b-FQ1mIOMgD7jlZN53VsiSdXzsYTY\"",
+      "Nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+      "Ratelimit-Limit": "100",
+      "Ratelimit-Policy": "100;w=60",
+      "Ratelimit-Remaining": "99",
+      "Ratelimit-Reset": "60",
+      "Referrer-Policy": "strict-origin-when-cross-origin",
+      "Report-To": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=%2BHEfQzOxQzfJRTdK4aPjNTEutfp5mvDshHXmJRzk8mI%3D\\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\\u0026ts=1758189362\"}],\"max_age\":3600}",
+      "Reporting-Endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=%2BHEfQzOxQzfJRTdK4aPjNTEutfp5mvDshHXmJRzk8mI%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1758189362\"",
+      "Vary": "Origin",
+      "Via": "1.1 heroku-router",
+      "X-Content-Type-Options": "nosniff",
+      "X-Frame-Options": "DENY",
+      "X-Request-Id": "2f88e5de-d7ac-cb30-374a-e6e673205d40",
+      "X-Xss-Protection": "1; mode=block",
+      "cf-cache-status": "DYNAMIC",
+      "Server": "cloudflare",
+      "server-timing": "cfL4;desc=\"?proto=TCP&rtt=19451&min_rtt=18261&rtt_var=7698&sent=4&recv=7&lost=0&retrans=0&sent_bytes=2832&recv_bytes=952&delivery_rate=159027&cwnd=251&unsent_bytes=0&cid=9ed44bd5371db697&ts=479&x=0\""
+    },
+    "body": {
+      "error": "Missing API key"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "request": {
+    "id": "f3fb1069-e71c-4f85-a45c-3c43d3a96e06",
+    "method": "POST",
+    "url": "https://reqres.in/api/login",
+    "headers": {
+      "User-Agent": "python-requests/2.32.5",
+      "Accept-Encoding": "gzip, deflate",
+      "Accept": "*/*",
+      "Connection": "keep-alive",
+      "Content-Length": "57",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "email": "eve.holt@reqres.in",
+      "password": "cityslicka"
+    }
+  },
+  "response": {
+    "id": "f3fb1069-e71c-4f85-a45c-3c43d3a96e06",
+    "status_code": 401,
+    "elapsed_ms": 783.52,
+    "headers": {
+      "Date": "Thu, 18 Sep 2025 08:40:50 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "27",
+      "Connection": "keep-alive",
+      "CF-RAY": "980f8a71e8a67f5c-MAA",
+      "Access-Control-Allow-Credentials": "true",
+      "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept, Authorization, x-api-key",
+      "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+      "Access-Control-Allow-Origin": "http://localhost:5173",
+      "Etag": "W/\"1b-FQ1mIOMgD7jlZN53VsiSdXzsYTY\"",
+      "Nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+      "Ratelimit-Limit": "100",
+      "Ratelimit-Policy": "100;w=60",
+      "Ratelimit-Remaining": "98",
+      "Ratelimit-Reset": "31",
+      "Referrer-Policy": "strict-origin-when-cross-origin",
+      "Report-To": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=I7SPiWz3%2BxfthuuwIvLYhNsVYvq60ehgdWDnrwaJZdo%3D\\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\\u0026ts=1758184850\"}],\"max_age\":3600}",
+      "Reporting-Endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=I7SPiWz3%2BxfthuuwIvLYhNsVYvq60ehgdWDnrwaJZdo%3D&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&ts=1758184850\"",
+      "Vary": "Origin",
+      "Via": "1.1 heroku-router",
+      "X-Content-Type-Options": "nosniff",
+      "X-Frame-Options": "DENY",
+      "X-Request-Id": "e2426384-9784-06c2-1257-7b4b3b907a0c",
+      "X-Xss-Protection": "1; mode=block",
+      "cf-cache-status": "DYNAMIC",
+      "Server": "cloudflare",
+      "server-timing": "cfL4;desc=\"?proto=TCP&rtt=28110&min_rtt=24985&rtt_var=11602&sent=6&recv=7&lost=0&retrans=0&sent_bytes=2832&recv_bytes=900&delivery_rate=116229&cwnd=248&unsent_bytes=0&cid=8a82689b79a7f2d1&ts=520&x=0\""
+    },
+    "body": {
+      "error": "Missing API key"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "request": {
+    "id": "5beda5c4-490b-46e7-a1ef-50018e4d49bf",
+    "method": "POST",
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "headers": {
+      "User-Agent": "python-requests/2.32.5",
+      "Accept-Encoding": "gzip, deflate",
+      "Accept": "*/*",
+      "Connection": "keep-alive",
+      "Content-Length": "108",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "title": "Test Post Title",
+      "body": "This is a test post body content for automation testing",
+      "userId": 1
+    }
+  },
+  "response": {
+    "id": "5beda5c4-490b-46e7-a1ef-50018e4d49bf",
+    "status_code": 201,
+    "elapsed_ms": 1202.1,
+    "headers": {
+      "Date": "Thu, 18 Sep 2025 09:59:32 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "129",
+      "Connection": "keep-alive",
+      "access-control-allow-credentials": "true",
+      "access-control-expose-headers": "Location",
+      "Cache-Control": "no-cache",
+      "etag": "W/\"81-YKl6JsaBR26CfaJckXBD5LTZxw0\"",
+      "expires": "-1",
+      "location": "https://jsonplaceholder.typicode.com/posts/101",
+      "nel": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}",
+      "pragma": "no-cache",
+      "report-to": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=r%2Bxok9L8cyEov7CVLzUqoCgJLmX2EiJBSVe8PtaoV4M%3D\\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\\u0026ts=1758189572\"}],\"max_age\":3600}",
+      "reporting-endpoints": "heroku-nel=\"https://nel.heroku.com/reports?s=r%2Bxok9L8cyEov7CVLzUqoCgJLmX2EiJBSVe8PtaoV4M%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1758189572\"",
+      "Server": "cloudflare",
+      "vary": "Origin, X-HTTP-Method-Override, Accept-Encoding",
+      "via": "2.0 heroku-router",
+      "x-content-type-options": "nosniff",
+      "x-powered-by": "Express",
+      "x-ratelimit-limit": "1000",
+      "x-ratelimit-remaining": "999",
+      "x-ratelimit-reset": "1758189614",
+      "cf-cache-status": "DYNAMIC",
+      "CF-RAY": "980ffdba0e68a078-SIN",
+      "alt-svc": "h3=\":443\"; ma=86400"
+    },
+    "body": {
+      "title": "Test Post Title",
+      "body": "This is a test post body content for automation testing",
+      "userId": 1,
+      "id": 101
+    }
+  }
+}

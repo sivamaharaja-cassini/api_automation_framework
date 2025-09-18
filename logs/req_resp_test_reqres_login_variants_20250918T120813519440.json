@@ -1,0 +1,34 @@
+{
+  "request": {
+    "id": "a397812e-050f-43ab-87a2-79a74df44475",
+    "method": "POST",
+    "url": "https://httpbin.org/login",
+    "headers": {
+      "User-Agent": "python-requests/2.32.5",
+      "Accept-Encoding": "gzip, deflate",
+      "Accept": "*/*",
+      "Connection": "keep-alive",
+      "Content-Length": "60",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "email": "eve.holt@reqres.in",
+      "password": "wrongpassword"
+    }
+  },
+  "response": {
+    "id": "a397812e-050f-43ab-87a2-79a74df44475",
+    "status_code": 404,
+    "elapsed_ms": 1492.02,
+    "headers": {
+      "Date": "Thu, 18 Sep 2025 12:08:13 GMT",
+      "Content-Type": "text/html",
+      "Content-Length": "233",
+      "Connection": "keep-alive",
+      "Server": "gunicorn/19.9.0",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Credentials": "true"
+    },
+    "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2 Final//EN\">\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.</p>\n"
+  }
+}

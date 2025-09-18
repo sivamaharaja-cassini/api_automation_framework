@@ -1,0 +1,64 @@
+{
+  "request": {
+    "id": "5865912a-cf5b-405d-8349-c12a6618ce6a",
+    "method": "POST",
+    "url": "https://gorest.co.in/public/v2/users",
+    "headers": {
+      "User-Agent": "python-requests/2.32.5",
+      "Accept-Encoding": "gzip, deflate",
+      "Accept": "*/*",
+      "Connection": "keep-alive",
+      "Authorization": "Bearer 97a7e6e3d5ffa33d15b1ec610c2f5ef5bb2efd40d595611345df3ec9c784a396",
+      "Content-Length": "20",
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "name": "John Doe"
+    }
+  },
+  "response": {
+    "id": "5865912a-cf5b-405d-8349-c12a6618ce6a",
+    "status_code": 422,
+    "elapsed_ms": 737.55,
+    "headers": {
+      "Date": "Thu, 18 Sep 2025 12:54:33 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "161",
+      "Connection": "keep-alive",
+      "Cache-Control": "no-cache",
+      "feature-policy": "camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "vary": "Origin",
+      "x-content-type-options": "nosniff",
+      "x-download-options": "noopen",
+      "x-frame-options": "SAMEORIGIN",
+      "x-permitted-cross-domain-policies": "none",
+      "x-ratelimit-limit": "90",
+      "x-ratelimit-remaining": "88",
+      "x-ratelimit-reset": "1",
+      "x-request-id": "f7cf56c4-2b58-4afc-97ed-de024e3a4012",
+      "x-runtime": "0.073569",
+      "x-xss-protection": "0",
+      "cf-cache-status": "DYNAMIC",
+      "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ub%2FxfpD6%2FmCuiwYe7cGkjg3hDoLj0xHm1s5mj%2FOkG58EbAkhtqUofKrQ5uwOFzK2TPbsS%2FOGD1%2BJnnRg79Ptz0z3PPKmhuhn946c2Q%3D%3D\"}]}",
+      "Server": "cloudflare",
+      "CF-RAY": "9810fe17dc21ce21-SIN",
+      "alt-svc": "h3=\":443\"; ma=86400"
+    },
+    "body": [
+      {
+        "field": "email",
+        "message": "can't be blank"
+      },
+      {
+        "field": "gender",
+        "message": "can't be blank, can be male of female"
+      },
+      {
+        "field": "status",
+        "message": "can't be blank"
+      }
+    ]
+  }
+}
