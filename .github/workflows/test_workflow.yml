@@ -58,5 +58,5 @@ jobs:
       - name: Upload Allure Report Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: allure-report-${{ matrix.env-name }}
-          path: allure-report-${{ matrix.env-name }}
+          name: allure-report
+          path: allure-report
